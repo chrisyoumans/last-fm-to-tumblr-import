@@ -6,7 +6,6 @@ class TumblrMine
 	attr_reader :client
 
 	def initialize
-	    # Authenticate via OAuth
 		@client = Tumblr::Client.new({
 		  :consumer_key => ENV["TUMBLR_CONSUMER_KEY"],
 		  :consumer_secret => ENV["TUMBLR_CONSUMER_SECRET"],
