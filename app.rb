@@ -20,4 +20,5 @@ get '/lastfm/weeklytopfive/:username' do
   import.retrieve_weekly_top_five("#{params[:username]}")
   import.artists.to_json
   import.wrap_artists_in_html_for_tumblr
+  
 end
