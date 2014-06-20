@@ -10,6 +10,7 @@
 /tmp/
 .env
 env.rb
+config.rb
 
 ## Specific to RubyMotion:
 .dat*
