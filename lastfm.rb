@@ -1,3 +1,5 @@
+require './env' if File.exists?('env.rb')
+
 class LastFM
 	attr_reader :api_key, :secret
 
