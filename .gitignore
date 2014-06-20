@@ -8,6 +8,7 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
-/config/local_env.yml
+.env
 Thumbs.db
 .DS_Store
+env.rb
