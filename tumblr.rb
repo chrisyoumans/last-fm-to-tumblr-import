@@ -16,7 +16,6 @@ class TumblrMine
 	end
 
 	def post_to_tumblr title, body, tags
-		#Invalid options (body) passed, only [:state, :tags, :tweet, :date, :markdown, :slug, :format, :title, :body] allowed.
   		@client.text('standardtune.tumblr.com', { :title => title, :body => body, :tags => tags })
 	end
 end
