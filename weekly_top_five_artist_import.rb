@@ -13,7 +13,6 @@ class WeeklyTopFiveArtistImport < LastFM
 
   def retrieve_weekly_top_five username = "standardtune"
     url = "https://ws.audioscrobbler.com/2.0/?method=user.gettopartists&user=" + username + "&api_key=" + @api_key + "&period=7day&format=json&limit=5"
-    puts url
     response = HTTParty.get(url)
     temp_artists = JSON.parse(response.body)
 
