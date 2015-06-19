@@ -3,7 +3,7 @@ class LastFM
 
   def initialize
     @api_key = ENV["LASTFM_API_KEY"]
- 	@secret = ENV["LASTFM_API_SECRET"]
+    @secret = ENV["LASTFM_API_SECRET"]
   end
 
 end
